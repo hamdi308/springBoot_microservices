@@ -57,7 +57,7 @@ class OrderServiceApplicationTests {
 	}
 
 	private OrderRequest getOrderRequest() {
-		return OrderRequest.builder().orderLineItemsDtoList(Arrays.asList(new OrderLineItemsDto("mac", new BigDecimal(3700), 1),
+		return OrderRequest.builder().orderLineItemsDtoList(Arrays.asList(new OrderLineItemsDto("mac", new BigDecimal(3700), 0),
 				new OrderLineItemsDto("hp", new BigDecimal(2700), 2),
 				new OrderLineItemsDto("iphone_11", new BigDecimal(1500), 4),
 				new OrderLineItemsDto("iphone_7", new BigDecimal(800), 1)))
